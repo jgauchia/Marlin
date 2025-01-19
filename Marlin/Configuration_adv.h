@@ -3217,9 +3217,9 @@
    * Override default SPI pins for TMC2130, TMC2160, TMC2660, TMC5130 and TMC5160 drivers here.
    * The default pins can be found in your board's pins file.
    */
-  //#define X_CS_PIN      -1
-  //#define Y_CS_PIN      -1
-  //#define Z_CS_PIN      -1
+  #define X_CS_PIN      63
+  #define Y_CS_PIN      40
+  #define Z_CS_PIN      42
   //#define X2_CS_PIN     -1
   //#define Y2_CS_PIN     -1
   //#define Z2_CS_PIN     -1
